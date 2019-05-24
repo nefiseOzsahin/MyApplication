@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfilActivity">
+
+    <Button
+        android:id="@+id/avatar_sec_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="avatarSecMethod"
+        android:text="Avatar Seç" />
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/profile_imgview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+       android:src="@drawable/common_google_signin_btn_icon_dark_focused" />
+
+    <Button
+        android:id="@+id/kaydet_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="kayitMethod"
+        android:text="Katdet" />
+
+    <Button
+        android:id="@+id/cikis_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="cikisMethod"
+        android:text="Çıkış" />
+</LinearLayout>
